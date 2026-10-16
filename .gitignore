@@ -1,0 +1,30 @@
+# Qt 构建产物
+build/
+build-*/
+debug/
+release/
+*.o
+*.obj
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+.qmake.stash
+.qtc_clangd/
+*.exe
+*.dll
+
+# 运行时数据
+*.db
+sensor.db
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# IDE
+.idea/
+.vscode/
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
